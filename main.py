@@ -13,7 +13,7 @@ def start(m):
 
 @bot.message_handler(content_types=['text'])
 def message(message):
-    if message.text == 'Универсиада2':
+  if message.text == 'Универсиада3':
         keyboardgostart = types.ReplyKeyboardMarkup(resize_keyboard=True)
         keyboardgostart.add(*[types.KeyboardButton(name) for name in ['Информация о ДУ', 'Оплата ДУ']])
         bot.send_message(message.chat.id, 'Выберите интересующее', reply_markup=keyboardgostart)

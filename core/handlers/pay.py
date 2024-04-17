@@ -8,7 +8,7 @@ async def order(message: Message, bot: Bot):
         title='Оплата',
         description='Описание',
         payload ='Payment through a bot',
-        provider_token='381764678:TEST:83120',
+        provider_token='***',
         currency='rub',
         prices=[
             LabeledPrice(

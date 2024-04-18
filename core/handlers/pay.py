@@ -8,7 +8,7 @@ async def order(message: Message, bot: Bot):
         title='Оплата',
         description='Описание',
         payload ='Payment through a bot',
-        provider_token='381764678:TEST:83120',
+        provider_token='***',
         currency='rub',
         prices=[
             LabeledPrice(
@@ -16,7 +16,7 @@ async def order(message: Message, bot: Bot):
                 amount=15000
             )
         ],
-        photo_url='https://sun9-10.userapi.com/impg/3EpunYie8lnDEYIm4xAC_R7ft43Qv-4hDMT-_A/D8L_W5tpfyg.jpg?size=432x320&quality=96&sign=b964d15b32a4e1dc9ae92685f6f2f8fe&type=album',
+        photo_url='***',
         photo_width=800,
         photo_height=600,
         need_email=True,

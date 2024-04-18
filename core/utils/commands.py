@@ -9,7 +9,7 @@ async def set_commands (bot: Bot) :
         ),
         BotCommand (
             command='pay',
-            description = 'оплата'
+            description='оплата'
         ),
 ]
 

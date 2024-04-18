@@ -30,5 +30,5 @@ async def pre_checkout_query(pre_checkout_query:PreCheckoutQuery, bot: Bot):
     await bot.answer_pre_checkout_query(pre_checkout_query.id, ok=True)
 
 async def successful_payment(message: Message):
-   msg = f'Спасибо, оплата прошла успешно {message.successful_payment.total_amount // 100} {message.successful_payment.currency}.'
+   msg = f'Оплата от пользователя с id:{message.from_user.id} \nна сумму:{message.successful_payment.total_amount // 100} {message.successful_payment.currency} \nпрошла успешно  '
    await message.answer(msg)

@@ -8,7 +8,7 @@ async def order(message: Message, bot: Bot):
         title='Оплата за проживание в общежитии',
         description='Деревня универсиада',
         payload ='Payment through a bot',
-        provider_token='381764678:TEST:83120',
+        provider_token='***',
         currency='rub',
         prices=[
             LabeledPrice(
@@ -36,7 +36,7 @@ async def order2(message: Message, bot: Bot):
         title='Оплата за проживание в общежитии',
         description='Общежитие №9',
         payload ='Payment through a bot',
-        provider_token='381764678:TEST:83120',
+        provider_token='***',
         currency='rub',
         prices=[
             LabeledPrice(
@@ -64,7 +64,7 @@ async def order3(message: Message, bot: Bot):
         title='Оплата за проживание в общежитии',
         description='Красная позиция',
         payload ='Payment through a bot',
-        provider_token='381764678:TEST:83120',
+        provider_token='***',
         currency='rub',
         prices=[
             LabeledPrice(

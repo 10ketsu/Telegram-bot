@@ -38,5 +38,32 @@ reply_keyboard2 = ReplyKeyboardMarkup(keyboard = [
             text='Назад'
         )
     ]
-
 ],resize_keyboard=True, input_field_placeholder='Выберите кнопку ⬇️')
+
+reply_keyboard3 = ReplyKeyboardMarkup(keyboard = [
+    [
+        KeyboardButton(
+            text='Информация Пушка'
+        ),
+        KeyboardButton(
+            text='Оплата Пушка'
+        ),
+        KeyboardButton(
+            text='Назад'
+        )
+    ]
+], resize_keyboard=True, input_field_placeholder='Выберите кнопку ⬇️')
+
+reply_keyboard4 = ReplyKeyboardMarkup(keyboard = [
+    [
+        KeyboardButton(
+            text='Информация Красная позиция'
+        ),
+        KeyboardButton(
+            text='Оплата Красная позиция'
+        ),
+        KeyboardButton(
+            text='Назад'
+        )
+    ]
+], resize_keyboard=True, input_field_placeholder='Выберите кнопку ⬇️')

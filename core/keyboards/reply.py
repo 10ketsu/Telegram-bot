@@ -5,10 +5,7 @@ reply_keyboard = ReplyKeyboardMarkup(keyboard=[
         KeyboardButton(
             text='Документы для заселения'
         )
-        #KeyboardButton(
-        #    text='text'
 
-        #)
     ],
 
     [
@@ -38,7 +35,7 @@ reply_keyboard2 = ReplyKeyboardMarkup(keyboard = [
             text='Назад'
         )
     ]
-],resize_keyboard=True, input_field_placeholder='Выберите кнопку ⬇️')
+], resize_keyboard=True, input_field_placeholder='Выберите кнопку ⬇️')
 
 reply_keyboard3 = ReplyKeyboardMarkup(keyboard = [
     [
